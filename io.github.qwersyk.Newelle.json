@@ -26,6 +26,7 @@
   ],
   "modules": [
     "modules/git.json",
+        "modules/git.json",
         "modules/vte.json",
         "modules/python3-requests.json",
         "modules/python3-expandvars.json",
@@ -51,6 +52,8 @@
         "modules/python3-model2vec.json",
         "modules/llama-cpp-prebuilt.json",
         "modules/python3-ddgs.json",
+        "modules/python3-pysilero-vad.json",
+        "modules/python3-openwakeword.json",
     {
       "name": "newelle",
       "builddir": true,
@@ -63,8 +66,8 @@
         {
           "type": "git",
           "url": "https://github.com/qwersyk/Newelle.git",
-          "tag": "1.2.5",
-          "commit": "f9c789cab0908cbd49382c3ae91d65a2d7e3924d"
+          "tag": "1.3.0",
+          "commit": "a84c174271469d9fc594f141ecb388ba3f3a570a"
         }
       ]
     }
